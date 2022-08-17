@@ -3,7 +3,7 @@ This repository is an overview of all the projects am going to be doing this sem
 
 ##Branching strategies.
 
-##Project and Repository Structures.
+###Project and Repository Structures.
 
-##List of Repositories.
+####List of Repositories.
 
