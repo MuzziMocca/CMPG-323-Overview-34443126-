@@ -14,3 +14,6 @@ There are files usually on the local machine creasted by the system which I woul
 # Storage of Credentials and Sensitive Information
 GitHub lets me create Personal Access Tokens that I can use in place of my password when authenticating over HTTPS for both Git and GitHub. Major benefits includes putting my Github_PAT in the git credential store, and use the credentials package. This allows me to use the same authentication token for HTTPS remotes in git to authenticate with the GitHub API.
 When retrieving or publishing Github HTTPS remotes, command line Git will automatically try to authenticate with this token because it is saved in the credential store under the github.com domain.
+
+# References
+[Uploading References.docx…]()
