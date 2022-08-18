@@ -6,9 +6,11 @@ This repository is an overview of all the projects am going to be doing this sem
 ![Diagram_Agile](https://user-images.githubusercontent.com/111059100/185374293-70e8bb70-819b-441e-be1e-3a1b42c4cace.PNG)
 
 # Branching strategies.
-A branch is always made from an existing branch. Normally, you could build a new branch off of the repository's default branch. Then, you may work on this new branch independently from other people's repository modifications. When you're finished, you may submit a pull request to another branch in order to merge the modifications made in the head branch into that branch (the base branch). After a pull request has been merged, or closed, you can delete the head branch as this is no longer needed.
+I will build new branches off of the repository's default branch. I will then work on them branch independently for my repository modifications when updating my project for progress. When I have finished updating, I will submit a pull request to the main branch in order to merge the modifications made in the new branch(es) into the main branch. After a pull request has been merged, I will then delete the head branch as it will no longer needed.
 
-List of Repositories.
+# The Use of .gitignore File
+There are files usually on the local machine creasted by the system which I would not like to commit to my repository, and any other file specific to me. Those file will be stored in a .gitignore file that In created and committed in the root directory of my repository. Even if the file is remote/online, I will track it and add it to the .gitignore file.
 
 # Storage of Credentials and Sensitive Information
-All the information that needs to be secured will be store in a secrets file created using a secrets repository we are interested in, select the Settings menu at the top, then the Secrets submenu, here we choose whether we are focused on Actions or Dependabot level, and then click the “New repository secret” button.
+GitHub lets me create Personal Access Tokens that I can use in place of my password when authenticating over HTTPS for both Git and GitHub. Major benefits includes putting my Github_PAT in the git credential store, and use the credentials package. This allows me to use the same authentication token for HTTPS remotes in git to authenticate with the GitHub API.
+When retrieving or publishing Github HTTPS remotes, command line Git will automatically try to authenticate with this token because it is saved in the credential store under the github.com domain.
