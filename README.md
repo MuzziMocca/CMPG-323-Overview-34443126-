@@ -1,5 +1,5 @@
 # CMPG-323-Overview-34443126
-This repository is an overview of all the projects am going to be doing this semester including the portfolio of evidence. I will only use this repository it will help keep track of my CMPG323 work through the semester to avoid any confusions.
+This repository is an overview of all the projects am going to be doing this semester including the portfolio of evidence. I will only use this repository it will help keep track of my CMPG323 work through the semester to avoid any confusions. I also have the option of using an extra repository that will divide my semester into two halves if the work piles up on this overview repository.
 
 # Project and Repository Structures.
 
