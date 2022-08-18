@@ -16,4 +16,5 @@ GitHub lets me create Personal Access Tokens that I can use in place of my passw
 When retrieving or publishing Github HTTPS remotes, command line Git will automatically try to authenticate with this token because it is saved in the credential store under the github.com domain.
 
 # References
-[Uploading References.docx…]()
+[References.docx](https://github.com/MuzziMocca/CMPG-323-Overview-34443126-/files/9373793/References.docx)
+
